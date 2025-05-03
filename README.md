@@ -1,27 +1,35 @@
-# Walletproject
+# Wallet System
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
+A simple credit/debit wallet system that allows users to perform wallet operations such as adding money, withdrawing money, and viewing the transaction history. The project is built using **Java**, **Spring Boot**, **MySQL**, and **Angular 16**.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Create a new user.
+- Add money to the wallet.
+- Withdraw money from the wallet.
+- View transaction history.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Backend**: Java, Spring Boot
+- **Frontend**: Angular 16
+- **Database**: MySQL
 
-## Build
+## Screenshots
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 1. **Create User Screen**
+![Create User](path/to/create-user-screenshot.png)
 
-## Running unit tests
+### 2. **Wallet Operations Screen**
+![Wallet Operations](path/to/wallet-operations-screenshot.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 3. **Transaction History Screen**
+![Transaction History](path/to/transaction-history-screenshot.png)
 
-## Running end-to-end tests
+## Setup and Installation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### **Backend Setup**
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/walletProject.git
