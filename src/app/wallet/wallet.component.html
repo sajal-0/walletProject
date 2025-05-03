@@ -1,0 +1,53 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card shadow-lg">
+        <div class="card-header bg-success text-white text-center">
+          <h3>Wallet Operations</h3>
+        </div>
+        <div class="card-body">
+          
+          <!-- User ID Input -->
+          <div class="mb-3 row">
+            <label for="userId" class="col-sm-4 col-form-label">User ID</label>
+            <div class="col-sm-8">
+              <input 
+                type="number" 
+                class="form-control" 
+                id="userId" 
+                [(ngModel)]="userId">
+            </div>
+          </div>
+
+          <div class="d-grid mb-3">
+            <button class="btn btn-primary" (click)="getBalance()">Get Balance</button>
+          </div>
+
+          <!-- Display Balance -->
+          <div class="alert alert-info text-center" *ngIf="balance !== null">
+            <strong>Balance:</strong> {{ balance | currency }}
+          </div>
+
+          <!-- Amount Input -->
+          <div class="mb-3 row">
+            <label for="amount" class="col-sm-4 col-form-label">Amount</label>
+            <div class="col-sm-8">
+              <input 
+                type="number" 
+                class="form-control" 
+                id="amount" 
+                [(ngModel)]="amount">
+            </div>
+          </div>
+
+          <!-- Add & Withdraw Buttons -->
+          <div class="d-flex justify-content-between">
+            <button class="btn btn-success w-45" (click)="addMoney()">Add Money</button>
+            <button class="btn btn-danger w-45" (click)="withdrawMoney()">Withdraw Money</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
