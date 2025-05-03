@@ -20,7 +20,8 @@ A simple credit/debit wallet system that allows users to perform wallet operatio
 ### 1. **Create User Screen**
 
 
-![Screenshot (65)](https://github.com/user-attachments/assets/f1be14cd-f4d8-45b5-bcde-2dc38d8867a7)
+![Screenshot (64)](https://github.com/user-attachments/assets/a69f5e13-04fa-4049-938d-d84e8354aef0)
+
 
 
 
